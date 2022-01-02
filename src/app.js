@@ -19,6 +19,7 @@ page('/details/:id', detailsPage);
 page('/login', loginPage);
 page('/register', registerPage);
 page('/create', createPage);
+
 page('/edit/:id', editPage);
 
 page.start();
